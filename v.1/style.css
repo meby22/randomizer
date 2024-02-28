@@ -1,18 +1,22 @@
 body {
     background: linear-gradient(rgb(12, 12, 16), rgb(84, 85, 85));
     height: 732px;
+    display: flex;
+    justify-content: center;
 }
 
 #min {
-    color: black;
+    color: white;
     background-color: gray;
     margin: 3px;
+    border-radius: 100px;
 }
 
 #max {
-    color: black;
+    color: white;
     background-color: gray;
     margin: 3px;
+    border-radius: 100px;
 }
 
 button:hover {
@@ -20,10 +24,12 @@ button:hover {
     background-color: rgb(97, 92, 97);
     margin: 2px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 #container {
     color: white;
     font-size: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
