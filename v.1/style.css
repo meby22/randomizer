@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(rgb(12, 12, 16), rgb(84, 85, 85));
+    height: 732px;
+}
+
+#min {
+    color: black;
+    background-color: gray;
+    margin: 3px;
+}
+
+#max {
+    color: black;
+    background-color: gray;
+    margin: 3px;
+}
+
+button {
+    color: black;
+    background-color: rgb(97, 92, 97);
+    margin: 2px;
+}
