@@ -15,8 +15,15 @@ body {
     margin: 3px;
 }
 
-button {
+button:hover {
     color: black;
     background-color: rgb(97, 92, 97);
     margin: 2px;
+    cursor: pointer;
+}
+
+#container {
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
